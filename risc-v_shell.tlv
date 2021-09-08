@@ -51,6 +51,8 @@
                     $pc + 4;
    $pc[31:0] = >>1$next_pc;
    
+   // Instruction Memory
+   `READONLY_MEM($pc, $$instr[31:0])
    
    
    
