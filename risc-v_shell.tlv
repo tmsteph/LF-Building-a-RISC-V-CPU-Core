@@ -8,9 +8,9 @@
 
 
    //---------------------------------------------------------------------------------
-   // /====================\
-   // | Sum 1 to 9 Program |
-   // \====================/
+   // /======================\
+   // | Program to Sum 1 - 9 |
+   // \======================/
    //
    // Program to test RV32I
    // Add 1,2,3,...,9 (in that order).
@@ -43,7 +43,7 @@
    
    $reset = *reset;
    
-   // Program Counter
+   // Incrementation of the Program Counter "PC" 
    
    $next_pc[31:0] = $reset ? 32'b0 :
                    // $taken_br ? $br_tgt_pc :
